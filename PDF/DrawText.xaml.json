@@ -1,0 +1,182 @@
+{
+  "DisplayName": "Draw Text on PDF",
+  "Tooltip": "Inserts text inside a PDF file inside a user-defined bounding rectangle.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "InputPath",
+      "DisplayName": "File Name",
+      "Category": null,
+      "Tooltip": "The input PDF file path.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "InputText",
+      "DisplayName": "Text",
+      "Category": null,
+      "Tooltip": "Text to write.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "OutputPath",
+      "DisplayName": "Output File Name",
+      "Category": null,
+      "Tooltip": "The output PDF file path.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Page",
+      "DisplayName": "Page",
+      "Category": "Position",
+      "Tooltip": "Page number (first page is 1).",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CoordX",
+      "DisplayName": "X",
+      "Category": "Position",
+      "Tooltip": "X (horizontal) coordinate for the bounding rectangle.\r\nOrigin (0, 0) is top left.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CoordY",
+      "DisplayName": "Y",
+      "Category": "Position",
+      "Tooltip": "Y (vertical) coordinate for the bounding rectangle.\r\nOrigin (0, 0) is top left.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Width",
+      "DisplayName": "Width",
+      "Category": "Position",
+      "Tooltip": "Width of the bounding rectangle.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Height",
+      "DisplayName": "Height",
+      "Category": "Position",
+      "Tooltip": "Height of the bounding rectangle.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Font",
+      "DisplayName": "Font",
+      "Category": "Font",
+      "Tooltip": "Typeface of the text.\r\nNot yet implemented: Cross-platform support (only works on Windows).",
+      "Placeholder": null,
+      "Widget": "Dropdown",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": [
+        "Arial",
+        "Times New Roman",
+        "Courier New",
+        "Verdana"
+      ]
+    },
+    {
+      "Name": "FontSize",
+      "DisplayName": "Size",
+      "Category": "Font",
+      "Tooltip": "Font size.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FontColor",
+      "DisplayName": "Color",
+      "Category": "Font",
+      "Tooltip": "Font color.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FontStyle",
+      "DisplayName": "Style",
+      "Category": "Font",
+      "Tooltip": "Font style.",
+      "Placeholder": null,
+      "Widget": "CheckboxGroup",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "TextAlignment",
+      "DisplayName": "Text Alignment",
+      "Category": "Font",
+      "Tooltip": "Text alignment.",
+      "Placeholder": null,
+      "Widget": "Dropdown",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "TextFormat",
+      "DisplayName": "Text Format",
+      "Category": "Font",
+      "Tooltip": "Origin of the text within the bounding rectangle.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

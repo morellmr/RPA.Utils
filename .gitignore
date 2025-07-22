@@ -1,0 +1,11 @@
+.local
+.project
+.entities
+.settings
+.tmh
+.variations/config.json
+[~][$]*
+.local/ProjectSettings.json
+*.hash
+*SearchHash
+DesignData

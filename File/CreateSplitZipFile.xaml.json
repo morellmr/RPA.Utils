@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Create Split Compressed/Zip File",
+  "Tooltip": "Add files or folders to a split compressed (zip) file with parts of a limited size.\r\nDoes not split if the resulting file size is below the maximum part size.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CompressedPath",
+      "DisplayName": "Compressed file name",
+      "Category": null,
+      "Tooltip": "Name of the compressed file to create.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FilesToCompress",
+      "DisplayName": "Content to zip",
+      "Category": null,
+      "Tooltip": "Select content to compress.",
+      "Placeholder": null,
+      "Widget": "StringArray",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ChunkSize",
+      "DisplayName": "Part size (Bytes)",
+      "Category": null,
+      "Tooltip": "Maximum part size in bytes.",
+      "Placeholder": "10 * 1024 * 1024 (10 MB)",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CompressedParts",
+      "DisplayName": "Compressed parts",
+      "Category": null,
+      "Tooltip": "Reference to the created file or parts.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

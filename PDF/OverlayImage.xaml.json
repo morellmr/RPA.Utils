@@ -1,0 +1,105 @@
+{
+  "DisplayName": "Overlay Image on PDF",
+  "Tooltip": "Overlays an image on a PDF file.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "InputPath",
+      "DisplayName": "File Name",
+      "Category": null,
+      "Tooltip": "The input PDF file path.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "InputImage",
+      "DisplayName": "Image File Name",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "OutputPath",
+      "DisplayName": "Output File Name",
+      "Category": null,
+      "Tooltip": "The output PDF file path.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Page",
+      "DisplayName": "Page",
+      "Category": "Position",
+      "Tooltip": "Page number (first page is 1).",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CoordX",
+      "DisplayName": "X",
+      "Category": "Position",
+      "Tooltip": "X (horizontal) coordinate for the image.\r\nOrigin (0, 0) is top left.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CoordY",
+      "DisplayName": "Y",
+      "Category": "Position",
+      "Tooltip": "Y (vertical) coordinate for the image.\r\nOrigin (0, 0) is top left.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Width",
+      "DisplayName": "Width",
+      "Category": "Position",
+      "Tooltip": "Width of the image.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Height",
+      "DisplayName": "Height",
+      "Category": "Position",
+      "Tooltip": "Height of the image.",
+      "Placeholder": null,
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

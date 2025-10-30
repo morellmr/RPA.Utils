@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Map Network Drive",
+  "Tooltip": "Maps a network drive using credentials.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "DriveLetter",
+      "DisplayName": "Drive",
+      "Category": null,
+      "Tooltip": "Letter of the drive to connect.",
+      "Placeholder": "Single letter (e.g. Z)",
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Folder",
+      "DisplayName": "Folder",
+      "Category": null,
+      "Tooltip": "Location to connect the drive to.",
+      "Placeholder": "Network path (e.g. \\\\server\\share)",
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Username",
+      "DisplayName": "Username",
+      "Category": null,
+      "Tooltip": "Network credential's username.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Password",
+      "DisplayName": "Secure Password",
+      "Category": null,
+      "Tooltip": "Network credential's secure password.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

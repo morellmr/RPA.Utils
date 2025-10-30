@@ -1,0 +1,21 @@
+{
+  "DisplayName": "Disconnect Network Drive",
+  "Tooltip": "Disconnects a mapped network drive.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "DriveLetter",
+      "DisplayName": "Drive",
+      "Category": null,
+      "Tooltip": "Letter of the drive to disconnect.",
+      "Placeholder": "Single letter (e.g. Z)",
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
